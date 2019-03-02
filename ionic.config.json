@@ -1,5 +1,7 @@
 {
   "name": "CarSpareParts",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
