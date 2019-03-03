@@ -14,7 +14,7 @@ ionic serve
 to Run this app on IOS
 
 ```bash
-ionic cordova run ios -l
+ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0"
 ```
 
 to Run this app on android
