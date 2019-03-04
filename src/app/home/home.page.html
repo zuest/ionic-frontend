@@ -20,7 +20,6 @@
                 <ion-icon name="globe"></ion-icon>
             </div>
           </ion-col>
-
           <ion-col size="1">
             <div>
                 <ion-icon name="search"></ion-icon>
@@ -35,4 +34,11 @@
 </ion-header>
 
 <ion-content padding>
+    <ion-slides [options]="slideOpts">
+        <ion-slide *ngFor="let slide of slides">
+            <ion-card>
+                    <img _ngcontent-c0="" class="sponsorCard" src="https://via.placeholder.com/300x300">
+              </ion-card>
+        </ion-slide>
+      </ion-slides>
 </ion-content>
