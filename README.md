@@ -11,13 +11,13 @@ to Run this app on the web run
 ionic serve
 ```
 
-to Run this app on IOS
+to Run this app on IOS run
 
 ```bash
 ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0"
 ```
 
-to Run this app on android
+to Run this app on android run
 
 ```bash
 ionic cordova run android -l
