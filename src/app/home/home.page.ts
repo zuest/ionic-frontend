@@ -7,15 +7,6 @@ import {FeaturesDataService} from '../services/features-data.service';
 })
 
 export class HomePage {
-  public slides : any[] = [];
-
-  constructor(public featuresServices: FeaturesDataService ) {
-   this.slides = featuresServices.getSlides();
+  constructor() {
   }
-
-public slideOpts = {
-  slidesPerView: 1.2,
-  spaceBetween: 10,
-};
-
 }
